@@ -1,9 +1,13 @@
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import CentralText from "./src/components/CentralText";
+import ScreenA from "./src/views/ScreenA";
+import ScreenB from "./src/views/ScreenB";
+import ScreenC from "./src/views/ScreenC";
 
 export default props => (
     <SafeAreaView style={{ flex: 1 }}>
-        <CentralText>App</CentralText>
+        <ScreenA />
+        <ScreenB />
+        <ScreenC />
     </SafeAreaView>
 )
